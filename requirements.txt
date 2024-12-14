@@ -1,9 +1,9 @@
-streamlit==1.37.0
-yfinance==0.2.40
-pandas==2.2.2
-numpy==1.26.4
-matplotlib==3.9.0
-seaborn==0.13.2
-scikit-learn==1.2.2
-st-aggrid==0.3.0
-pandas-datareader==0.10.0
+streamlit==1.37.0            # For Streamlit app framework
+yfinance==0.2.40            # For stock market data
+pandas==2.2.2               # For data manipulation
+numpy==1.26.4               # For numerical computations
+matplotlib==3.9.0           # For plotting
+seaborn==0.13.2             # For advanced plots
+sklearn                     # For Linear Regression (already includes `scikit-learn`)
+st-aggrid==1.0.5            # For interactive grids
+pandas-datareader==0.10.0   # For financial data
